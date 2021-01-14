@@ -240,16 +240,13 @@ ul{
 /* Шапка */
 
 .helmet{ 
-       max-width: 1600px;
-
-       background-position: center;
-       background: linear-gradient( 
+       background: linear-gradient(
               to right, rgba(47, 48, 58, 0.4), 
               rgba(47, 48, 58, 0.4)),
                url(../svg/Imgmin.jpg);
        background-repeat: no-repeat; 
-       margin: 0px auto;
-      
+       background-position: center;
+       background-size: cover; 
        padding-top: 200px;
        padding-bottom: 200px;    }
 .heading{
@@ -457,7 +454,6 @@ border: #2196F3; }
          margin: 0px 8px;        } 
 
        /* **  goit-markup-hw-04   ** */ 
-
        /* <!--Особенности-->  */
 .ghost{
        display: block;
